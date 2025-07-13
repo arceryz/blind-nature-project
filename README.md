@@ -2,7 +2,7 @@
 The project management repository for Liora's Blind Nature. This is the place where useful links, resources and documents can be uploaded. The actual project is managed in *Perforce: Helix Core*, which is a specialized version control system for games. Please read this document set up the Helix Core on your system and start contributing.
 
 Our tech stack:
-- Perforce to store the project and for version control. See [Setting up Perforce](##setting-up-perforce).
+- Perforce to store the project and for version control. See [Setting up Perforce](#setting-up-perforce).
 
 ## Setting up Perforce
 This paragraph will explain how to set up version control with Perforce in general. There is an extra section for integrating Perforce with Wwise for audio designers.
