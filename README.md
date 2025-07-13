@@ -9,7 +9,9 @@ Tools we use:
 # Setting up Perforce
 1. Start by downloading P4V, the Perforce 4 Visual client. [Link here](https://portal.perforce.com/s/downloads?product=Helix%20Visual%20Client%20%28P4V%29). It is faster on Windows if you open the Command Prompt application and type `winget install Perforce.P4V`.
 
-2. Open up the P4V application. You will be prompted to log in on a Perforce server. For the "Server" field, enter `ssl:p4.liorainteractief.nl:1666`, which indicates that we want to connect securely with `ssl` to the server at `p4.liorainteractief.nl` at port `1666`. For the "User" field, click "Browse" to find your user in the list. You can ask me to create a new user for you.
+2. Open up the P4V application. You will be prompted to log in on a Perforce server. Enter the fields:
+   - Server = `ssl:p4.liorainteractief.nl:1666`
+   - User = Click "Browse" to find your user in the list. Ask me to create a new user for you.
 
 3. You will be prompted for the password, which you can later change as well. By default, a session lasts 12 hours after which you must enter the password again.
 
@@ -25,3 +27,14 @@ You have now set up the basic Perforce client. Before you can start downloading 
 6. To start working on a certain file **it is critical that you "Check Out" the file** (right mouse click). This will lock the file for you and prevent anyone else from working on it as well. Everyone can see which files are being worked on.
 
 7. To submit you changes simply click "Mark for Add", which will add the changes to the *Changelist* (a group of changes). A changelist can be submitted by pressing the button. Add an informative message to indicate what you have changed.
+
+# Integrating Perforce and Wwise
+
+1. In Wwise go to the Project Settings and select Perforce as the source control method.
+2. Press config, then fill out the details of the Perforce server:
+	- Server = `ssl:p4.liorainteractief.nl`
+	- Port = `1666`
+	- User = Your username
+	- Workspace = Your workspace name (see in P4V)
+  
+3. Perforce is now integrated. You can now add Wwise things with "Mark for Add" in Wwise itself. The integration has many features, please read them yourself. Going to the "File Manager" in Wwise shows a list of all files and if they have been changed. This is a nice UI for submitting your changes.
