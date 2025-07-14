@@ -13,12 +13,11 @@ Tools we use:
 Inspired by:
 - [The Vale](https://store.steampowered.com/app/989790/The_Vale_Shadow_of_the_Crown/)
 
-Table of contents:
-- Perforce
-	- [Setting up Perforce](#setting-up-perforce)
-	- [Integrating Perforce and Wwise](#integrating-perforce-and-wwise)
- - Task Management
-	- [Using GitHub projects and issues](#using-github-projects-and-issues)
+Contents:
+- [Setting up Perforce](#setting-up-perforce)
+- [Integrating Perforce and Wwise](#integrating-perforce-and-wwise)
+- [Using GitHub projects and issues](#using-github-projects-and-issues)
+
 # Setting up Perforce
 1. Start by downloading P4V, the Perforce 4 Visual client. [Link here](https://portal.perforce.com/s/downloads?product=Helix%20Visual%20Client%20%28P4V%29). It is faster on Windows if you open the Command Prompt application and type `winget install Perforce.P4V`.
 
