@@ -5,6 +5,7 @@ Tools we use:
 - Perforce to store the project and for version control.
 - Canva for whiteboarding, worldbuilding, art inspiration, idea sharing. [Go here](https://www.canva.com/design/DAGrTBQaV34/1gaO3hmYpI18O-d-SNbPig/edit?utm_content=DAGrTBQaV34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 - GitHub projects for managing the tasks. [Go here](https://github.com/users/arceryz/projects/4)
+- Discord for communication. 
 
 Inspired by:
 - [The Vale](https://store.steampowered.com/app/989790/The_Vale_Shadow_of_the_Crown/)
