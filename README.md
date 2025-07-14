@@ -1,4 +1,7 @@
-# Blind Nature Project Management
+![](/res/banner.png)
+
+# Blind Nature Project
+
 The project management repository for Liora's Blind Nature. This is the place where useful links, resources and documents can be uploaded. The actual project is managed in *Perforce: Helix Core*, which is a specialized version control system for games. Please read this document set up the Helix Core on your system and start contributing.
 
 Tools we use:
