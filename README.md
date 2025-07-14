@@ -1,14 +1,24 @@
+
 ![](/res/banner.png)
 
 # Blind Nature Project
-
-The project management repository for Liora's Blind Nature. This is the place where useful links, resources and documents can be uploaded. The actual project is managed in *Perforce: Helix Core*, which is a specialized version control system for games. Please read this document set up the Helix Core on your system and start contributing.
+The project management repository for Liora's Blind Nature. This is the place where useful links, resources and documents can be uploaded. The actual project is managed in *Perforce: Helix Core*, which is a specialized version control system for games. Please read this document set up the Helix Core on your system and start contributing. If you do not have permission for a certain resource, contact me.
 
 Tools we use:
 - Perforce to store the project and for version control.
-- Canva for whiteboarding, worldbuilding, art inspiration, idea sharing. [Go here](https://www.canva.com/design/DAGrTBQaV34/1gaO3hmYpI18O-d-SNbPig/edit?utm_content=DAGrTBQaV34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- Canva for whiteboarding, worldbuilding, art inspiration, idea sharing. [Go here](https://www.canva.com/design/DAGrTBQaV34/1gaO3hmYpI18O-d-SNbPig/edit?utm_content=DAGrTBQaV34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 - GitHub projects for managing the tasks. [Go here](https://github.com/users/arceryz/projects/4)
+- Discord for communication. 
 
+Inspired by:
+- [The Vale](https://store.steampowered.com/app/989790/The_Vale_Shadow_of_the_Crown/)
+
+Table of contents:
+- Perforce
+	- [Setting up Perforce](#setting-up-perforce)
+	- [Integrating Perforce and Wwise](#integrating-perforce-and-wwise)
+ - Task Management
+	- [Using GitHub projects and issues](#using-github-projects-and-issues)
 # Setting up Perforce
 1. Start by downloading P4V, the Perforce 4 Visual client. [Link here](https://portal.perforce.com/s/downloads?product=Helix%20Visual%20Client%20%28P4V%29). It is faster on Windows if you open the Command Prompt application and type `winget install Perforce.P4V`.
 
@@ -41,3 +51,12 @@ You have now set up the basic Perforce client. Before you can start downloading 
 	- Workspace = Your workspace name (see in P4V)
   
 3. Perforce is now integrated. You can now add Wwise things with "Mark for Add" in Wwise itself. The integration has many features, please read them yourself. Going to the "File Manager" in Wwise shows a list of all files and if they have been changed. This is a nice UI for submitting your changes.
+
+# Using GitHub projects and issues
+
+We use GitHub projects for managing the project and organizing tasks. It starts with an *issue* that you can create on a repository. See the "Issues" tab at the top. You can create an issue to track a new task or bug or anything. Make sure to
+1. Set the correct labels for your task (Audio, Art, Programming etc)
+2. Set the correct milestone for your task (if applicable)
+3. Set the correct project for your task (my Liora's Blind Nature project)
+
+The project is where we have a Kanban board to track the issues, a timeline and so on. You must be set as collaborator on the project page as well. Don't worry if you forget to set anything on your task, we can always do so later. As long as we can see what everyone is working on.
