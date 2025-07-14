@@ -6,6 +6,9 @@ Tools we use:
 - Canva for whiteboarding, worldbuilding, art inspiration, idea sharing. [Go here](https://www.canva.com/design/DAGrTBQaV34/1gaO3hmYpI18O-d-SNbPig/edit?utm_content=DAGrTBQaV34&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - GitHub projects for managing the tasks. [Go here](https://github.com/users/arceryz/projects/4)
 
+Inspired games:
+- [The Vale](https://store.steampowered.com/app/989790/The_Vale_Shadow_of_the_Crown/)
+
 # Setting up Perforce
 1. Start by downloading P4V, the Perforce 4 Visual client. [Link here](https://portal.perforce.com/s/downloads?product=Helix%20Visual%20Client%20%28P4V%29). It is faster on Windows if you open the Command Prompt application and type `winget install Perforce.P4V`.
 
